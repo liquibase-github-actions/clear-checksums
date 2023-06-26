@@ -6,7 +6,7 @@ Clears all checksums
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/clear-checksums@v4.21.1
+- uses: liquibase-github-actions/clear-checksums@v4.23.0
   with:
     # The JDBC database connection URL
     # string
@@ -55,7 +55,7 @@ The liquibase clear checksums action accepts all valid liquibase global options 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/clear-checksums@v4.21.1
+  - uses: liquibase-github-actions/clear-checksums@v4.23.0
     with:
       url: ""
       headless: true
